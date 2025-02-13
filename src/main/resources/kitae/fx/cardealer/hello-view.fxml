@@ -5,10 +5,9 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="725.0" prefWidth="1112.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Label layoutX="232.0" layoutY="38.0" prefHeight="58.0" prefWidth="680.0" text="Welcome to your Car dealer" textAlignment="CENTER" textFill="#2be709">
+      <Label layoutX="232.0" layoutY="38.0" prefHeight="58.0" prefWidth="680.0" text="Welcome to your Car dealer" textAlignment="CENTER" textFill="#26c106">
          <font>
             <Font name="Arial Bold Italic" size="50.0" />
          </font>
@@ -33,5 +32,31 @@
             <Image url="@../../../images/icons/Chevorlet.png" />
          </image>
       </ImageView>
+      <MenuBar fx:id="menuBar" layoutY="2.0" prefHeight="26.0" prefWidth="1112.0" style="-fx-background-color: #8bec78; -fx-cursor: hand;" AnchorPane.leftAnchor="2.0" AnchorPane.rightAnchor="2.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Main menu">
+            <items>
+              <MenuItem fx:id="menuItemAddVehicle" mnemonicParsing="false" text="Add new Vehicle">
+                     <graphic>
+                        <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../images/icons/Bugatti-new.png" />
+                           </image></ImageView>
+                     </graphic>
+                  </MenuItem>
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
    </children>
 </AnchorPane>
