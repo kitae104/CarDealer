@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="725.0" prefWidth="1112.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="232.0" layoutY="38.0" prefHeight="58.0" prefWidth="680.0" text="Welcome to your Car dealer" textAlignment="CENTER" textFill="#2be709">
+         <font>
+            <Font name="Arial Bold Italic" size="50.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="250.0" fitWidth="500.0" layoutX="56.0" layoutY="156.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="319.0" AnchorPane.leftAnchor="56.0" AnchorPane.topAnchor="156.0">
+         <image>
+            <Image url="@../../../images/icons/lamborghini-Red.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="250.0" fitWidth="500.0" layoutX="556.0" layoutY="156.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/icons/lamborghini.Yellow.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="250.0" fitWidth="500.0" layoutX="84.0" layoutY="395.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/icons/Bugatti-new.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="250.0" fitWidth="500.0" layoutX="556.0" layoutY="406.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/icons/Chevorlet.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
