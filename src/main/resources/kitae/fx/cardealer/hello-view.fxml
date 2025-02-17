@@ -34,9 +34,9 @@
       </ImageView>
       <MenuBar fx:id="menuBar" layoutY="2.0" prefHeight="26.0" prefWidth="1112.0" style="-fx-background-color: #8bec78; -fx-cursor: hand;" AnchorPane.leftAnchor="2.0" AnchorPane.rightAnchor="2.0">
         <menus>
-          <Menu mnemonicParsing="false" text="Main menu">
+          <Menu fx:id="menuAddNewVehicle" mnemonicParsing="false" text="Main menu">
             <items>
-              <MenuItem fx:id="menuItemAddVehicle" mnemonicParsing="false" text="Add new Vehicle">
+              <MenuItem fx:id="menuItemAddNewVehicle" mnemonicParsing="false" text="Add new Vehicle">
                      <graphic>
                         <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
                            <image>
