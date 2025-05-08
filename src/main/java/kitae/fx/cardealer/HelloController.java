@@ -34,7 +34,7 @@ public class HelloController implements Initializable {
             @Override
             public void handle(ActionEvent actionEvent) {
                 System.out.println("================================Add New Vehicle");
-                FXMLLoader fxmlLoader = new FXMLLoader(AddNewVehicle.class.getResource("addNewVehicle.fxml"));
+                FXMLLoader fxmlLoader = new FXMLLoader(AddNewVehicle.class.getResource("AddNewVehicle.fxml"));
                 try {
                     Parent root = fxmlLoader.load();
                     Stage stage = (Stage) menuBar.getScene().getWindow();
